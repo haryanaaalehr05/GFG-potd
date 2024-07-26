@@ -7,8 +7,8 @@ using namespace std;
 class Solution {
   public:
 
-     bool kPangram(string str, int k) {
-        // code here
+    bool kPangram(string str, int k) {
+        // codeGenius
         int arr[26]={0}, count =0, op=0;
         for(int i=0;i<str.size();i++){
             if(str[i]!= ' '){
