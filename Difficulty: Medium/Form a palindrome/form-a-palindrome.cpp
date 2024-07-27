@@ -8,7 +8,7 @@ using namespace std;
 //User function template for C++
 
 class Solution{
-  public:
+   public:
     int Lcs(int n,string s1,string s2){
         int dp[n+1][n+1];
         //base case
