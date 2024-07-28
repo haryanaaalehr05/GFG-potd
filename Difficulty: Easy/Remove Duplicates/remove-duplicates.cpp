@@ -8,7 +8,7 @@ using namespace std;
 class Solution {
   public:
 
-    string removeDups(string str) {
+   string removeDups(string str) {
         int arr[26]={0};
         int j=0;
         
