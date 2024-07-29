@@ -7,7 +7,7 @@ using namespace std;
 // User function template for C++
 class Solution {
   public:
-    int rowWithMax1s(vector<vector<int> > &arr) {
+     int rowWithMax1s(vector<vector<int> > &arr) {
         // code here
         int m=arr.size();
         int n=arr[0].size();
