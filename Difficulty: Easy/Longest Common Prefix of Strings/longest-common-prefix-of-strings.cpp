@@ -11,8 +11,8 @@ using namespace std;
 class Solution {
   public:
 
-    string longestCommonPrefix(vector<string> arr) {
-        // codeGenius
+     string longestCommonPrefix(vector<string> arr) {
+        // code here
         int minlen=1001,count=0;
         string ans;
         for(int i=0;i<arr.size();i++){
