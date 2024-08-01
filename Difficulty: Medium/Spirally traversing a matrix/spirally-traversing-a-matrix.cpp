@@ -6,9 +6,8 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-      vector<int> spirallyTraverse(vector<vector<int> > &matrix) {
-        // code here
-        int row=matrix.size();
+    vector<int> spirallyTraverse(vector<vector<int> > &matrix) {
+ int row=matrix.size();
         int col=matrix[0].size();
         int count=0;
         vector<int> ans;
@@ -45,7 +44,7 @@ class Solution {
             startingCol++;
         }
         return ans;
-      }
+    }
 };
 
 //{ Driver Code Starts.
