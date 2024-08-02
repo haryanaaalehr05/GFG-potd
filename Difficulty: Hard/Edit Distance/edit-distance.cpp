@@ -6,7 +6,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-    int editDistance(std::string str1, std::string str2) {
+   int editDistance(std::string str1, std::string str2) {
         int m = str1.size();
         int n = str2.size();
         std::vector<std::vector<int>> dp(m + 1, std::vector<int>(n + 1, 0));
@@ -29,7 +29,7 @@ class Solution {
         }
 
         return dp[m][n];
-    }
+   }
 };
 
 //{ Driver Code Starts.
