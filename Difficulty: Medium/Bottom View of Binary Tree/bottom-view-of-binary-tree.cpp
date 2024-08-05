@@ -95,7 +95,7 @@ Node* buildTree(string str)
 
 class Solution {
   public:
-    void solve(Node *root,int x,int y,map<int,pair<int,int>>& mp){
+     void solve(Node *root,int x,int y,map<int,pair<int,int>>& mp){
         //base case
         if(root==NULL){
             return;
