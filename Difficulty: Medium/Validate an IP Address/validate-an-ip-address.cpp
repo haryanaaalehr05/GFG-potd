@@ -9,7 +9,7 @@ class Solution {
   public:
     int isValid(string s) {
         // code here
-         int n=s.size();
+     int n=s.size();
     if(n<7) return 0; // invalid size
     int dots=0;
     // This one is added to combat new test cases
@@ -34,7 +34,6 @@ class Solution {
     }
     return 1;
     }
-    
 };
 
 //{ Driver Code Starts.
