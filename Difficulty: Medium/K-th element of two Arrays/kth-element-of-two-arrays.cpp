@@ -6,7 +6,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-    int kthElement(int k, vector<int>& arr1, vector<int>& arr2) {
+     int kthElement(int k, vector<int>& arr1, vector<int>& arr2) {
         // code here
         int n1 = arr1.size() , n2 = arr2.size() ;
         if(k == n1+n2)return max(arr1[n1-1],arr2[n2-1]);
