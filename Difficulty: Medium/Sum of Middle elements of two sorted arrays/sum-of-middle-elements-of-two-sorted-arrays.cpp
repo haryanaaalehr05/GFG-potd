@@ -11,7 +11,7 @@ class Solution {
   public:
     int SumofMiddleElements(vector<int> &arr1, vector<int> &arr2) {
         // code here
-    int n = arr1.size(),low=0,high=n-1,mid=0;
+        int n = arr1.size(),low=0,high=n-1,mid=0;
         while(low<=high){
             mid=(low+high)/2;
             int midSecond = n-1-mid;
