@@ -10,8 +10,9 @@ class Solution {
   public:
     long long int floorSqrt(long long int n) {
         // Your code goes here
-        long long int b=sqrt(n);
+        long long int b = sqrt(n);
         return b;
+
     }
 };
 
