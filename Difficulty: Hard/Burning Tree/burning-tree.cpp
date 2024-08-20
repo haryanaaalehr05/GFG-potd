@@ -96,6 +96,7 @@ struct Node {
 */
 class Solution {
   public:
+    // Helper function to find the parents of all nodes
     void findParents(Node* root, unordered_map<Node*, Node*>& parentMap, Node*& targetNode, int target) {
         if (!root) return;
         if (root->data == target) targetNode = root;
@@ -159,6 +160,7 @@ class Solution {
         
         return time;
     }
+   
 };
 
 //{ Driver Code Starts.
