@@ -9,7 +9,7 @@ using namespace std;
 
 class Solution {
   public:
-    string findOrder(string dict[], int n, int k) {
+   string findOrder(string dict[], int n, int k) {
         vector<int> adj[k];
         // Step 1: Build the graph
         for (int i = 0; i < n - 1; i++) {
@@ -53,6 +53,7 @@ class Solution {
 
         // If order contains all k characters, it's a valid order
         return order;
+
     }
 };
 
