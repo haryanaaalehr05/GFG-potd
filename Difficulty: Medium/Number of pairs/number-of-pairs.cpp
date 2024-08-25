@@ -4,10 +4,9 @@ using namespace std;
 
 
 // } Driver Code Ends
-
 class Solution {
   public:
-    long long countPairs(vector<int>& arr, vector<int>& brr) {
+     long long countPairs(vector<int>& arr, vector<int>& brr) {
         // Sort the array brr to use binary search
         sort(brr.begin(), brr.end());
 
